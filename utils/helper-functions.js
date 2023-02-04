@@ -83,7 +83,7 @@ const checkAutomationState = async () => {
           }
         } catch (error) {
           console.log(error);
-          timer = setInterval(callback, 10000);
+          // timer = setInterval(callback, 10000);
         }
       }
     };
