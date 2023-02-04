@@ -1,0 +1,38 @@
+{
+  "name": "solmate-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "engines": {
+    "node": "16.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js"
+  },
+  "author": "pranav",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.1",
+    "cookie-session": "^2.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "express-session": "^1.17.3",
+    "mongoose": "^6.7.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.20",
+    "passport": "^0.6.0",
+    "passport-appleid": "^1.0.5",
+    "passport-google-oauth20": "^2.0.0",
+    "twilio": "^3.83.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "encrypt-decrypt-library": "^1.0.5",
+    "ethers": "^5.7.2",
+    "http": "^0.0.1-security"
+  }
+}
